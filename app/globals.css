@@ -116,3 +116,15 @@ input,button,textarea{font-family:inherit}
 .vol .lab{margin:0;font-size:.55rem}.vol input{width:140px;accent-color:var(--ac)}
 @media(max-width:760px){.bento>*{grid-column:1/-1}.mw{bottom:60px}.pact{display:none}}
 @media(min-width:761px){.bento > .s12:last-child{min-height:112px}}
+
+
+/* ===== screenshot-sized desktop layout ===== */
+.bento{max-width:1080px;margin:0 0 0 4.7vw;padding:70px 0 30px;gap:18px}
+.bc{padding:26px 28px}
+.pres{min-height:140px}.pres .avw,.pres .av{width:68px;height:68px}.pres .sdot{width:18px;height:18px}
+.bento > .s5,.bento > .s7{min-height:240px}
+.bento > .s3,.bento > .s6{min-height:204px}
+.bento > .s12:not(.pres){min-height:162px}
+.name{font-size:2.7rem}
+.big{font-size:1.4rem}
+@media(max-width:760px){.bento{max-width:none;margin:0;padding:70px 20px 30px;gap:14px}.bento > .s5,.bento > .s7,.bento > .s3,.bento > .s6,.bento > .s12:not(.pres){min-height:0}.bc{padding:20px 22px}.pres{min-height:0}.pres .avw,.pres .av{width:56px;height:56px}.pres .sdot{width:16px;height:16px}.name{font-size:2.5rem}}
